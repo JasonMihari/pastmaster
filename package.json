@@ -1,0 +1,7 @@
+﻿{
+  "name": "impl-devops-100959264",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": { "start": "node src/index.js" }
+}
