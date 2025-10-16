@@ -3,7 +3,8 @@ import pytest
 
 def test_area_valid_student_id_output():
     # last two digits of 100959264 => 64 ; 8 x 8 = 64
-    assert calculate_area_square(8) == 64
+    assert calculate_area_square(8) == 65  # intentional fail for evidence
+
 
 import pytest
 @pytest.mark.parametrize("x,expected", [(1,1),(2.5,6.25),(10,100)])
